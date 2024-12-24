@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h5{
+    background-color: #8d0203;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+.headings h2{
+    font-size: 30px;
+}
+.headings{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px;
+    color: white;
+}
+.sideheading{
+    display: flex;
+    gap: 35px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    font-weight: 600;
+}
+.container{
+    height: 78.5%;
+    width: 100%;
+    background-color: saddlebrown;
+    background-image: url(https://assets.manscaped.com/manscaped-prod/image/upload/f_jpg,h_1148,w_960,f_auto,q_auto/v1/site-assets/strapi-assets/holiday-sale-2024/holiday-sale_variant-2/holiday-sale-2024_hero_variant-2_red_black-friday_480?_a=AXALAUZ0);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: left;
+}
+h3{
+    font-family:'Times New Roman', Times, serif ;
+    font-size: 50px;
+    color: white;
+    padding-left: 70px;
+    padding-top: 8%;
+}
+h1{
+    font-size: 130px;
+    padding: 10px 90px;
+    color: white;
+}
+h4{
+    font-size: 60px;
+    color: white;
+    padding-left: 70px;
+}
+h6{
+    font-size: 30px;
+    padding: 10px 80px;
+    color: white;
+}
+button{
+    background-color: #b98141;
+    padding: 13px 18px;
+    margin-left: 80px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+}
